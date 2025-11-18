@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Master</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-red-glossy-ball-png-image_9228110.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<main>
+    <h1>Bounce Master</h1>
+
+    <div class="painel">
+        <p id="maximo">Pontução Máxima: 0</p>
+        <p id="pontos">Pontuação: 0</p>
+    </div>
+
+
+    <div id="jogo">
+        <svg id="area" viewBox="0 0 600 300">
+            <circle id="circulo" r="25" cx="300" cy="80" fill="red" />
+            <rect id="barra" width="100" height="10" x="250" y="280" fill="white" />
+        </svg>
+    </div>
+
+    <p id="instrucao">Use as setas ← → para mover a barra</p>
+</main>
+
+<button id="btnNovo" onclick="novoJogo()">Novo Jogo</button>
+
+<script src="scripts.js"></script>
+</body>
+</html>

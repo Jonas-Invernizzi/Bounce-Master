@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d0d0d;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+}
+
+h1 {
+    color: #4cc9f0;
+    text-shadow: 0 0 10px #4cc9f0;
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.painel {
+    display: flex;
+    justify-content: center;
+    gap: 25px;        
+    margin-top: 8px; 
+}
+
+
+#jogo {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background: #1a1a1a;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 15px;
+    box-shadow: inset 0 0 15px #000;
+    position: relative;
+}
+
+#barra {
+    rx: 8;
+    ry: 8;
+    fill: #4cc9f0;
+    stroke: #2aa7cc;
+    stroke-width: 2;
+    filter: drop-shadow(0 0 8px #4cc9f0);
+}
+
+#circulo {
+    filter: drop-shadow(0 0 10px red);
+}
+
+#instrucao {
+    margin-top: 14px;
+    font-size: 16px;
+    color: #bfbfbf;
+    text-shadow: 0 0 4px #444;
+}
+
+#btnNovo {
+    position: fixed;
+    bottom: 60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 14px 32px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid #4cc9f0;
+    background: #121212;
+    color: #4cc9f0;
+    cursor: pointer;
+    transition: 0.25s;
+    box-shadow: 0 0 8px #4cc9f0;
+}
+
+#btnNovo:hover {
+    background: #4cc9f0;
+    color: #000;
+    box-shadow: 0 0 12px #89e5ff;
+}
