@@ -1,2 +1,6 @@
 # Bounce-Master
-Uma recriação inspirada no clássico Pong, feita com HTML, CSS, JavaScript e SVG. Neste jogo, você joga sozinho e deve controlar sua raquete para evitar que a bola passe por você, testando reflexos e rapidez. Com gráficos vetoriais limpos e jogabilidade ágil, é um desafio contínuo de habilidade e concentração.
+Esta é uma recriação inspirada no clássico Pong, desenvolvida por Jonas Invernizzi utilizando HTML, CSS, JavaScript e SVG. Diferente do Pong tradicional, neste jogo você joga sozinho, controlando a raquete para impedir que a bola ultrapasse sua defesa, tornando cada partida um teste de reflexos e precisão.
+
+O HTML estrutura o jogo, o CSS define o layout e estilo, o JavaScript gerencia a movimentação da bola, colisões e pontuação, enquanto o SVG garante gráficos vetoriais nítidos e responsivos.
+
+O projeto demonstra habilidades em programação web, lógica de jogos e gráficos vetoriais, transformando um conceito clássico em uma experiência moderna, divertida e desafiadora.
